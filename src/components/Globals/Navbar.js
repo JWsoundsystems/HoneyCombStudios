@@ -32,12 +32,12 @@ export default class Navbar extends Component {
             {
             id:5,
             path:'/about',
-            text:'About H&C'
+            text:'About'
             },
             {
             id:6,
-            path:'/buzz',
-            text:'Buzz Us'
+            path:'/contact',
+            text:'Contact'
             }
         ]        
     }
