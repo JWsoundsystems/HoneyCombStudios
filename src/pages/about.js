@@ -8,10 +8,10 @@ import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
 import Footer from "../components/Globals/Footer"
 
-const IndexPage = ({ data }) => (
+const AboutPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="" styleClass="default-background">
+    <SEO title="About" />
+    <BackgroundSection img={data.img.childImageSharp.fluid} title="About Us" styleClass="about-background">
     </BackgroundSection>
     <Info /> 
     <Footer />     
@@ -30,4 +30,4 @@ export const query = graphql`
 }
 `
 
-export default IndexPage
+export default AboutPage

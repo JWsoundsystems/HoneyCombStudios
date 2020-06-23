@@ -8,10 +8,10 @@ import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
 import Footer from "../components/Globals/Footer"
 
-const IndexPage = ({ data }) => (
+const ResPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="" styleClass="default-background">
+    <SEO title="Reservation" />
+    <BackgroundSection img={data.img.childImageSharp.fluid} title="Reservations Page" styleClass="reservation-background">
     </BackgroundSection>
     <Info /> 
     <Footer />     
@@ -30,4 +30,4 @@ export const query = graphql`
 }
 `
 
-export default IndexPage
+export default ResPage

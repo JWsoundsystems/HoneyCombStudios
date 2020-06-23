@@ -35,3 +35,63 @@ h1,h2,h3,h4,h5,h6, nav {
     background-size: cover;
     
 }
+
+.btn-yellow { 
+    color: var(--mainOrange);
+    border-color: var(var(--mainOrange)); 
+}
+
+.btn-yellow {
+    background: var(--mainOrange);
+    color: var(--mainDark);
+}
+
+.about-background {
+    min-height: 46vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.shop-background {
+    min-height: 46vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.reservation-background {
+    min-height: 46vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.stylist-background {
+    min-height: 46vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-background {
+    min-height: 46vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.footer {
+    background-color: var(--mainOrange);
+}
