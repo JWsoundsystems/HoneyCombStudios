@@ -28,20 +28,21 @@ export const query = graphql`
         id
         title
         description
-        image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         price
         Brand
         category
         company
+        image {
+          childImageSharp {
+            fluid {
+              src
+            }
+          }
+        }
       }
     }
   }
 `
+
 
 export default ShopPage

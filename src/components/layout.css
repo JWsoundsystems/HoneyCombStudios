@@ -73,6 +73,11 @@ h1,h2,h3,h4,h5,h6, nav {
     background-size: cover;
 }
 
+.product-img {
+    width: 600px;
+    height: 600px;
+}
+
 .reservation-background {
     min-height: 12vh;
     display: flex;
