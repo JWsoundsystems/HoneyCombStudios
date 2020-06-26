@@ -1,6 +1,6 @@
 :root {
     --mainWhite: #ffffff;
-    --mainOrange: #fab578;
+    --mainOrange: #e59341;
     --mainGrey: #d9d9d9;
     --mainDark: #222222;
 }
@@ -24,10 +24,15 @@ h1,h2,h3,h4,h5,h6, nav {
 .cart-icon {
     cursor: pointer;
     color: var(--mainOrange);
+    position: relative;
+    right: 30px;
+    bottom: 5px;
+    height: 50px;
+    width: 30px;
 }
 
 .default-background {
-    min-height: 100vh;
+    min-height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +52,7 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .about-background {
-    min-height: 46vh;
+    min-height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,8 +60,12 @@ h1,h2,h3,h4,h5,h6, nav {
     background-size: cover;
 }
 
+.about {
+    min-height: 70vh;
+}
+
 .shop-background {
-    min-height: 46vh;
+    min-height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +74,7 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .reservation-background {
-    min-height: 46vh;
+    min-height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +83,7 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .stylist-background {
-    min-height: 46vh;
+    min-height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +92,7 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .contact-background {
-    min-height: 46vh;
+    min-height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,4 +103,5 @@ h1,h2,h3,h4,h5,h6, nav {
 
 .footer {
     background-color: var(--mainOrange);
+    
 }

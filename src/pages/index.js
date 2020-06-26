@@ -11,7 +11,7 @@ import Footer from "../components/Globals/Footer"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="" styleClass="default-background">
+    <BackgroundSection img={data.img.childImageSharp.fluid} title="Home Page" styleClass="default-background">
     </BackgroundSection>
     <Info /> 
     <Footer />     
