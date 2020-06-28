@@ -11,11 +11,12 @@ import Products from "../components/Home/Products"
 
 
 const ShopPage = ({
-  data:{allStrapiProduct: {nodes : products }},
+
+  data: {allStrapiProduct: {nodes : products }}
   
 }) => {
   return <Layout>
-    <BackgroundSection />
+    <BackgroundSection src="../components/Globals/BackgroundSection"/>
     <Products products={products} title="All Products"/>
     <Footer />
   </Layout> 

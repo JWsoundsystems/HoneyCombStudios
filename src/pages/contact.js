@@ -13,8 +13,21 @@ const ContactPage = ({ data }) => (
     <SEO title="Contact" />
     <BackgroundSection img={data.img.childImageSharp.fluid} title="Contact Page" styleClass="contact-background">
     </BackgroundSection>
-    
-    <Info /> 
+    <section className="contact-page py-5">
+      <article className="contact-form">
+        <h3 className="form-group col-11 col-md-8 my-3 mx-auto"> Buzz Us!</h3>
+        <form action="https://formspree.io/xlepwbzo" method="POST">
+          <div className="form-group col-11 col-md-8 my-3 mx-auto">
+            <input type="text" name="name" placeholder="name" className="form-control">
+            </input>
+            <input type="email" name="email" placeholder="email" className="form-control">
+            </input>
+            <textarea name="message" rows="5" placeholder="message" className="form-control"></textarea>
+          </div>
+            <button type="submit" className="submit-btn btn col-11 col-md-6 my-3 mx-auto">Submit Here</button> 
+        </form>
+      </article>
+    </section>
     <Footer />     
   </Layout>
 )

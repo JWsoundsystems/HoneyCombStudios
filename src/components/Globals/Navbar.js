@@ -38,6 +38,11 @@ export default class Navbar extends Component {
             id:6,
             path:'/contact',
             text:'Contact'
+            },
+            {
+            id:7,
+            path:'/gallery',
+            text:'Gallery'
             }
         ]        
     }

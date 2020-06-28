@@ -4,7 +4,7 @@ import Image from "gatsby-image"
 
 const Product = ({title,description,image,price,company,Brand,category}) => {
     return <section className="py-5 product col-11 col-md-8 my-3 d-flex ">
-            <div>
+            <div className="product-div">
             <Image fluid={image.childImageSharp.fluid} className="product-img col-3 col-sm-3 mx-auto" />
             </div>
         
