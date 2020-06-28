@@ -37,3 +37,10 @@ module.exports = {
       },
   ],
 }
+
+require("dotenv").config({
+  path: `.env.${process.env.GATSBY_FB_APP_ID}`,
+  path: `.env.${process.env.GATSBY_FB_APP_SECRET}`,
+  path: `.env.${process.env.GATSBY_INSTA_APP_ID}`,
+  path: `.env.${process.env.GATSBY_INSTA_APP_SECRET}`,
+})
