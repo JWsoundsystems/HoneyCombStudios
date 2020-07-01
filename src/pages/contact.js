@@ -7,12 +7,22 @@ import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
 import Footer from "../components/Globals/Footer"
+import AboutImg from "../images/16_Store.jpg"
 
 const ContactPage = ({ data }) => (
   <Layout>
     <SEO title="Contact" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="Contact Page" styleClass="contact-background">
-    </BackgroundSection>
+    <div className="row py-4">
+    <div className="col-4  text-center">
+    <img className="contact-img w-50 h-40" src={AboutImg}></img>
+    </div>
+    <div className="col-4  text-center">
+    <img className="contact-img w-50 h-40" src={AboutImg}></img>
+    </div>
+    <div className="col-4  text-center">
+    <img className="contact-img w-50 h-40" src={AboutImg}></img>
+    </div>
+    </div>
     <section className="contact-page py-5">
       <article className="contact-form">
         <h3 className="form-group col-11 col-md-8 my-3 mx-auto"> Buzz Us!</h3>
@@ -24,7 +34,7 @@ const ContactPage = ({ data }) => (
             </input>
             <textarea name="message" rows="5" placeholder="message" className="form-control"></textarea>
           </div>
-            <button type="submit" className="submit-btn btn col-11 col-md-6 my-3 mx-auto">Submit Here</button> 
+            <button type="submit" className="btn-warning btn-sm submit-btn btn col-11 col-md-1 my-3 mx-auto">Submit Here</button> 
         </form>
       </article>
     </section>

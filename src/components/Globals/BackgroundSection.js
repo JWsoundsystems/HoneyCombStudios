@@ -1,5 +1,6 @@
 import React from 'react'
 import BackgroundImage from "gatsby-background-image";
+import { Link } from "gatsby"
 
 
 export default function BackgroundSection({
@@ -14,6 +15,16 @@ export default function BackgroundSection({
         {title}
         </h1>
         {children}
+        <Link to="/contact/">
+           <button className="btn-contact-home btn-lg text-uppercase btn-yellow p-15 position-relative">Buzz Us!</button>
+        </Link>
+        <Link to="/reservation/">
+           <button className="btn-book-home btn-lg text-uppercase btn-yellow p-15 position-relative">Book Appointment</button>
+        </Link>
+        <Link to="/shop/">
+           <button className="btn-shop-home btn-lg text-uppercase btn-yellow p-15 position-relative">Shop Products</button>
+        </Link>
+                
     </BackgroundImage>
     );
 }

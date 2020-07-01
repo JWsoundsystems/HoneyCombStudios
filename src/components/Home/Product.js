@@ -3,18 +3,16 @@ import Image from "gatsby-image"
 
 
 const Product = ({title,description,image,price,company,Brand,category}) => {
-    return <section className="py-5 product col-11 col-md-8 my-3 d-flex ">
-            <div className="product-div">
-            <Image fluid={image.childImageSharp.fluid} className="product-img col-3 col-sm-3 mx-auto" />
+    return <section className="py-5 product col-12 col-md-12 my-2 d-flex ">
+            <div className="container product-div col-12 col-md-12 ">
+            <Image fluid={image.childImageSharp.fluid} className="product-img col-12 col-md-12  mx-auto" />
+            <div className="overlay product-info col-12 col-md-12 mx-auto text-center ">
+            <br></br>
+            <br></br>
+            <h5 className="align-middle">{title}</h5>
+            <p className="product-category">{category}</p> 
+            <p className="product-price">${price}</p>
             </div>
-        
-            <div className="product-info col-6 col-sm-6 mx-auto text-left">
-            <h3>{title}</h3>
-            <p className="product-desc">{description}</p>
-            <p className="product-price">Price: ${price}</p>
-            <p className="product-comp">Company: {company}</p>
-            <p className="product-brand">Brand: {Brand}</p>
-            <p className="product-category">Category: {category}</p> 
         </div>
     </section>
 }

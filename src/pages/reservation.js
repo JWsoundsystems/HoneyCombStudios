@@ -11,8 +11,6 @@ import Booking from "../components/Home/Booking"
 const ResPage = ({ data }) => (
   <Layout>
     <SEO title="Reservation" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="Reservations Page" styleClass="reservation-background">
-    </BackgroundSection>
     <Booking /> 
     <Footer />     
   </Layout>

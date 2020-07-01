@@ -7,8 +7,10 @@ export default function Info() {
         <section className="py-5">
             <div className="container about">
                 <div className="row">
+                <div className="about-img">
+                <div className="row">
                 <div className="text-center">
-                    
+                    <h1>About Honey & Comb Salon</h1>
                     <br>
                     </br>
                     <p className="lead text-muted col-12 col-sm-12 mx-auto text-center">
@@ -18,6 +20,8 @@ export default function Info() {
                         <button className="btn text-uppercase btn-yellow">About Page</button>
                     </Link> */}
                 </div>   
+            </div>
+            </div>
             </div>
             </div>
 

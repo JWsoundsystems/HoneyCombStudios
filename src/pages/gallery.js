@@ -12,8 +12,7 @@ import Footer from "../components/Globals/Footer"
 const AboutPage = ({ data }) => (
   <Layout>
     <SEO title="Gallery" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="Gallery" styleClass="about-background">
-    </BackgroundSection>
+    
     <Insta /> 
     <Footer />     
   </Layout>

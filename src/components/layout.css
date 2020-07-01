@@ -17,6 +17,10 @@ h1,h2,h3,h4,h5,h6, nav {
     word-spacing: 10px;
 }
 
+.navbar {
+    background-color: var(--mainOrange);
+}
+
 .text-orange {
     color: var(--mainOrange);
 }
@@ -32,7 +36,7 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .default-background {
-    min-height: 12vh;
+    min-height: 89vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +55,21 @@ h1,h2,h3,h4,h5,h6, nav {
     color: var(--mainDark);
 }
 
+.btn-contact-home {
+    top:470px;
+    right:50px
+}
+
+.btn-book-home {
+    top:470px;
+    left:20px
+}
+
+.btn-shop-home {
+    top:470px;
+    left:80px
+}
+
 .about-background {
     min-height: 12vh;
     display: flex;
@@ -61,7 +80,11 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .about {
-    min-height: 70vh;
+    min-height: 28vh;
+}
+
+.gallery {
+    min-height: 82vh;
 }
 
 .shop-background {
@@ -71,19 +94,61 @@ h1,h2,h3,h4,h5,h6, nav {
     justify-content: center;
     background-position: center;
     background-size: cover;
+
+}
+
+.logos {
+    position: relative;
+    left:1000px;
+    bottom: 450px;
+    padding: 10px;
+}
+
+.olaplex-img {
+    position: relative;
+    height:200px;
+    width:400px
+}
+.oribe-img {
+    position: relative;
+    height:108px;
+    width:300px;
+    right:1px;
+    top:49px
+}
+.unite-img {
+    position: relative;
+    height:300px;
+    width:300px;
+    right:1px;
+    bottom: 45px
 }
 
 .products {
-    height: 1120px;
+    height: 78vh;
+    position: relative;
+    overflow-y: scroll;
+    
 }
 .product {
-    height: 400px
+    height: 40vh;
+    position: relative;
+    
+    word-wrap: break-word;
 
 }
 .product-img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    border-style: groove;
+    border-color: var(--mainOrange);
+    border-width: 5px;
 }
+
+.brand {
+    min-height: 12vh;
+}
+
 
 .reservation-background {
     min-height: 12vh;
@@ -94,6 +159,9 @@ h1,h2,h3,h4,h5,h6, nav {
     background-size: cover;
 }
 
+.booking {
+    min-height: 16vh;
+}
 .stylist-background {
     min-height: 12vh;
     display: flex;
@@ -113,11 +181,55 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .contact-page {
-    min-height: 77vh;
+    min-height: 10vh;
 }
 
+.submit-btn {
+    position: relative;
+    left: 440px;
+}
 
 .footer {
     background-color: var(--mainOrange);
     
 }
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--mainOrange);
+  }
+  
+  .container:hover .overlay {
+    opacity: .6;
+  }
+  
+  .text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

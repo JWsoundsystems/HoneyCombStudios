@@ -21,29 +21,25 @@ export default class Navbar extends Component {
             },
             {
             id:3,
-            path:'/stylists',
-            text:'Stylists'
-            },
-            {
-            id:4,
             path:'/reservation',
             text:'Reservations'
             },
             {
-            id:5,
+            id:4,
             path:'/about',
             text:'About'
             },
             {
-            id:6,
+            id:5,
             path:'/contact',
             text:'Contact'
             },
             {
-            id:7,
+            id:6,
             path:'/gallery',
             text:'Gallery'
-            }
+            },
+            
         ]        
     }
     navbarHandler = () => {
@@ -58,7 +54,7 @@ export default class Navbar extends Component {
     };
 
     render() {
-        return <nav className="navbar navbar-expand-md bg-light navbar-light">
+        return <nav className="navbar navbar-expand-md bg-orange navbar-light" >
            
             <button className="navbar-toggler" type="button" onClick={this.navbarHandler}>
                 <span className="navbar-toggler-icon" />

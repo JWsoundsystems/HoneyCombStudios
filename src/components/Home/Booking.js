@@ -4,7 +4,7 @@ class Booking extends Component {
   
   componentDidMount(){
     const script=document.createElement('script')
-    script.src="https://www.vagaro.com//resources/WidgetEmbeddedLoader/OZqnCJarEJOcT3qmV35y6JuPlXiz3avV34mC2PeFJ4mC30m9cqyc9YScfoR4pkUcPCu7gevEhAJDXwOW?v=GyMQ17qiLM8G6j18XzCy5vyUAEuy8abThtyfzz5veNzB0#"
+    script.src="https://www.vagaro.com//resources/WidgetEmbeddedLoader/OZqnCJarEJOcT3qmV35y6JuPlXiz3avV34mC2PeFJ4mC30m9dSycPCu7gevEhAJDXwPW?v=bCrsB8QWsBwfQfI8J5iHNfZbuLxUkoqNhVJ3F2JTthy#"
     script.async=true
     this.instance.appendChild(script)  
   }
@@ -14,7 +14,7 @@ class Booking extends Component {
       <div>
         <div
           id="frameTitle"
-          className="embedded-widget-title"
+          className="embedded-widget-title booking"
           style={{
             fontSize: '23px',
             color: '#333',

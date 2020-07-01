@@ -6,21 +6,22 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
+import Menu from "../components/Home/Menu"
 import Footer from "../components/Globals/Footer"
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="Home Page" styleClass="default-background">
+    <BackgroundSection img={data.img.childImageSharp.fluid} title="" styleClass="default-background">
     </BackgroundSection>
-    <Info /> 
+    
     <Footer />     
   </Layout>
 )
 
 export const query = graphql`
 {
-  img: file(relativePath: {eq: "07_Wallpaper.jpg"}) {
+  img: file(relativePath: {eq: "03_Logo.jpg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_tracedSVG

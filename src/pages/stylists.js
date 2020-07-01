@@ -12,8 +12,7 @@ import Staff from "../components/Home/Staff"
 const StylistPage = ({ data }) => (
   <Layout>
     <SEO title="Stylists" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="Stylists Page" styleClass="stylist-background">
-    </BackgroundSection>
+    
     <Info />
 
     <Footer />     
