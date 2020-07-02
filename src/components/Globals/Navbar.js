@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import logo from '../../images/Logo/04_Logo.png'
+
 import { FaCartArrowDown } from 'react-icons/fa'
 
 

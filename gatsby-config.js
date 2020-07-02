@@ -32,9 +32,11 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000,
-        contentTypes: [`Product`],
+        contentTypes: [`Product`, `Gallery`],
         },
       },
+      
+      
   ],
 }
 
