@@ -30,6 +30,7 @@ h1,h2,h3,h4,h5,h6, nav {
     position: relative;
     left: 30px;
     width: 100%;
+    font-size: 24px;
 }
 
 .text-orange {
@@ -61,23 +62,18 @@ h1,h2,h3,h4,h5,h6, nav {
 
 
 .wallpaper-home-1 {
-   
-    
-    
+     
     height:10px;
     bottom:50px;
     
 }
 
 .wallpaper-home-2 {
-    
 
     width: 1600px;
     position: relative;
     height:200px;
     bottom: 300px;
-
-    
     
 }
 
@@ -93,46 +89,99 @@ h1,h2,h3,h4,h5,h6, nav {
 
 .home-menu {
   
-  
     position: relative;
     height: 10px;
     bottom: 10px;
 }
 
+.home-header {
+    position: relative;
+    
+}
+
+.home-img {
+    position: relative;
+    width: 70%;
+    bottom: 100px;
+    left: 190px;     
+
+}
+
+.home-img-shop {
+    position: relative;
+    width: 70%;
+    bottom: 150px;
+    left: 172px;    
+}
+
+.home-img-hive {
+    position: relative;
+    width: 70%;
+    bottom: 100px;
+    right: 130px;    
+}
+
+.home-img-join {
+    position: relative;
+    width: 70%;
+    bottom: 100px;
+    right: 280px;    
+}
+
 .home-btn {
     position: relative;
-    left: 115px;
-    bottom:220px;
-    margin: 4px;
+    left: 485px;
+    bottom: 380px;
+    text-align: center;
+    position: relative;
+}
+
+.home-btn-shop {
+    position: relative;
+    left: 300px;
+    bottom: 190px;
+    text-align: center;
+    position: relative;
+}
+
+.home-btn-hive {
+    position: relative;
+    left: 150px;
+    bottom: 378px;
+    text-align: center;
+    position: relative;
+}
+
+.home-btn-join {
+    position: relative;
+    right: 10px;
+    bottom: 380px;
+    text-align: center;
+    position: relative;
+}
+
+.home-btn-book {
+    position: relative;
+    left: 210px;
+    bottom: 210px;
+    text-align: center;
+    position: relative;
 }
 
 .home-desc {
     position: relative;
-    bottom:190px;
-    width:100%;
-    font-size: larger;
+    bottom:150px;
+    width:75%;
+    font-size: x-large;
+    font-weight: 900;
     text-align: center;
 }
 
 .home-gallery {
-    height: 395px;
+    height: 390px;
     width: 100%;
 }
 
-.btn-contact-home {
-    top:470px;
-    right:50px
-}
-
-.btn-book-home {
-    top:470px;
-    left:90px
-}
-
-.btn-shop-home {
-    top:470px;
-    left:80px
-}
 
 .about-background {
     min-height: 12vh;
@@ -147,10 +196,20 @@ h1,h2,h3,h4,h5,h6, nav {
     min-height: 28vh;
 }
 
+.about-image {
+    position: relative;
+    bottom: 100px;
+}
+
 .about-text {
     position: relative;
     right: 100px;
     top: 115px;
+}
+
+.about-desc {
+    position: relative;
+    width: 1200px;
 }
 
 .gallery {
