@@ -1,8 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import Wallpaper from '../images/Wallpaper/01_Wallpaper.png'
-
+import logo from "../images/Logo/04_Logo.png"
+import Wallpaper from '../images/Wallpaper/03_Wallpaper.png'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
@@ -10,15 +9,18 @@ import BackgroundSection2 from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
 import Menu from "../components/Home/Menu"
 import Footer from "../components/Globals/Footer"
+import AboutImg1 from "../images/Store/17_Store.jpg"
+import AboutImg2 from "../images/Store/19_Store.jpg"
+import AboutImg3 from "../images/Store/18_Store.jpg"
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
+    <img className="home-img rounded mx-auto d-block" src={logo} alt="Logo"/>
+    
     <section>
       <div className="row py-5 home-menu align-middle mx-auto">
     
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="" styleClass="default-background align-middle mx-auto">
-    </BackgroundSection>
     <div className="row py-5 home-menu align-middle mx-auto">
         <div className="col-2 mx-auto justify-content-center "></div>
         
@@ -52,6 +54,17 @@ const IndexPage = ({ data }) => (
         </div>
         </div>
     </section>
+    <div className="home-gallery row py-4">
+    <div className="col-4  text-center">
+    <img className="about-img w-50 h-70 align-middle" src={AboutImg3}></img>
+    </div>
+    <div className="col-4  text-center ">
+    <img className="about-img w-50 h-70 align-middle " src={AboutImg2}></img>
+    </div>
+    <div className="col-4  text-center">
+    <img className="about-img w-50 h-70 align-middle" src={AboutImg1}></img>
+    </div>
+    </div>
     
    <Footer />     
   </Layout>

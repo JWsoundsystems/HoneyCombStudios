@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .default-background {
-    min-height: 56.5vh;
+    min-height: 20vh;
     width:100%;
     display: flex;
     align-items: center;
@@ -58,18 +58,27 @@ h1,h2,h3,h4,h5,h6, nav {
     
 }
 
-.home-menu {
-    min-height: 25vh;
+
+
+.wallpaper-home-1 {
+   
+    
+    
+    height:10px;
+    bottom:50px;
     
 }
 
-.home-wallpaper {
-    height: 205px;
-    width: 400px;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
+.wallpaper-home-2 {
+    
+
+    width: 1600px;
+    position: relative;
+    height:200px;
+    bottom: 300px;
+
+    
+    
 }
 
 .btn-yellow { 
@@ -82,16 +91,32 @@ h1,h2,h3,h4,h5,h6, nav {
     color: var(--mainDark);
 }
 
+.home-menu {
+  
+  
+    position: relative;
+    height: 10px;
+    bottom: 10px;
+}
+
 .home-btn {
     position: relative;
-    left: 105px;
-    top:50px;
-    margin: 5px;
+    left: 115px;
+    bottom:220px;
+    margin: 4px;
 }
 
 .home-desc {
     position: relative;
-    top:80px
+    bottom:190px;
+    width:100%;
+    font-size: larger;
+    text-align: center;
+}
+
+.home-gallery {
+    height: 395px;
+    width: 100%;
 }
 
 .btn-contact-home {
@@ -101,7 +126,7 @@ h1,h2,h3,h4,h5,h6, nav {
 
 .btn-book-home {
     top:470px;
-    left:20px
+    left:90px
 }
 
 .btn-shop-home {
@@ -132,7 +157,7 @@ h1,h2,h3,h4,h5,h6, nav {
     position: relative;
     height: 1124px;
     overflow: scroll;
-    background-color: var(--mainGrey);
+    
 }
 
 .photobook {
@@ -155,6 +180,7 @@ h1,h2,h3,h4,h5,h6, nav {
     bottom: 0px;
     padding: 10px;
     min-height: 13vh;
+    
 }
 
 .logo-header {
@@ -170,7 +196,6 @@ h1,h2,h3,h4,h5,h6, nav {
 .products {
     height: 76vh;
     position: relative;
-    
     bottom:60px;
     overflow: scroll;
     
