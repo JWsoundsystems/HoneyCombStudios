@@ -25,7 +25,6 @@ h1,h2,h3,h4,h5,h6, nav {
    
 }
 
-
 .nav-link {
     position: relative;
     left: 30px;
@@ -54,18 +53,12 @@ h1,h2,h3,h4,h5,h6, nav {
     align-items: center;
     justify-content: center;
     background-position: center;
-    background-size: cover;
-    
-    
+    background-size: cover; 
 }
 
-
-
 .wallpaper-home-1 {
-     
     height:10px;
     bottom:50px;
-    
 }
 
 .wallpaper-home-2 {
@@ -88,10 +81,8 @@ h1,h2,h3,h4,h5,h6, nav {
 }
 
 .home-menu {
-  
-    position: relative;
-    height: 10px;
-    bottom: 10px;
+  position: relative;
+  height: 480px;
 }
 
 .home-header {
@@ -101,63 +92,84 @@ h1,h2,h3,h4,h5,h6, nav {
 
 .home-img {
     position: relative;
-    width: 70%;
-    bottom: 100px;
-    left: 190px;     
-
+    height: 65%;
+    width: 65%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-img-shop {
     position: relative;
-    width: 70%;
-    bottom: 150px;
-    left: 172px;    
+    height: 65%;
+    width: 65%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 .home-img-hive {
     position: relative;
-    width: 70%;
-    bottom: 100px;
-    right: 130px;    
+    height: 65%;
+    width: 65%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-img-join {
     position: relative;
-    width: 70%;
-    bottom: 100px;
-    right: 280px;    
+    height: 65%;
+    width: 65%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-btn {
     position: relative;
-    left: 485px;
-    bottom: 380px;
+    bottom: 140px;
     text-align: center;
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .home-btn-shop {
     position: relative;
-    left: 300px;
-    bottom: 190px;
+    
+    bottom: 140px;
     text-align: center;
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .home-btn-hive {
     position: relative;
-    left: 150px;
-    bottom: 378px;
+    bottom: 140px;
     text-align: center;
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .home-btn-join {
     position: relative;
-    right: 10px;
-    bottom: 380px;
+    
+    bottom: 140px;
     text-align: center;
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }
 
 .home-btn-book {
@@ -165,7 +177,7 @@ h1,h2,h3,h4,h5,h6, nav {
     left: 210px;
     bottom: 210px;
     text-align: center;
-    position: relative;
+ 
 }
 
 .home-desc {
@@ -239,7 +251,6 @@ h1,h2,h3,h4,h5,h6, nav {
     bottom: 0px;
     padding: 10px;
     min-height: 13vh;
-    
 }
 
 .logo-header {
@@ -390,3 +401,253 @@ margin: 7px;
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+
+  
+
+  @media only screen and (max-width: 1920px) {
+    .home-menu {
+        position: relative;
+        height: 315px;
+      }
+
+      .home-btn {
+        position: relative;
+        bottom: 140px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: relative;
+        left:5px;
+        bottom: 140px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: relative;
+        bottom: 140px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: relative;
+        bottom: 140px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+    .home-img {
+        position: relative;
+        height: 65%;
+        width: 65%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 100px
+    }
+    
+    .home-img-shop {
+        position: relative;
+        height: 65%;
+        width: 65%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 100px  
+    }
+    
+    .home-img-hive {
+        position: relative;
+        height: 65%;
+        width: 65%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 100px
+    }
+    
+    .home-img-join {
+        position: relative;
+        height: 65%;
+        width: 65%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 100px
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        height: 10px;
+    }
+
+    .products {
+        height: 75vh;
+        position: relative;
+        bottom: 60px;
+        overflow: scroll;       
+    }
+    .product {
+        height: 25vh;
+        position: relative;
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 25vh;
+    
+    }
+    .product-img {
+        width: 280px;
+        height: 250px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 250px;
+        width: 280px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .btn-all {
+        position: absolute;
+        left:12px;
+        bottom:40px;
+        margin:11px
+    }
+
+    .vagaro-container {
+        position: relative;
+        height: 72vh;
+        bottom: 155px;
+    }
+
+    .embedded-widget-title {
+        position: relative;
+        height: 10px;
+    }
+    .about {
+        min-height: 31.5vh;
+    }
+    
+    .about-image {
+        position: relative;
+        bottom: 100px;
+    }
+    
+    .about-text {
+        position: relative;
+        right: 100px;
+        top: 115px;
+    }
+    
+    .about-desc {
+        position: relative;
+        width: 1200px;
+    }
+    .contact-background {
+        min-height: 21vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .contact-page {
+       position: relative;
+       height: 38vh
+    }
+    
+    .submit-btn {
+        position: relative;
+        left: 495px;
+    }
+
+    .gallery {
+        position: relative;
+        height: 945px;
+        overflow: scroll;
+        
+    }
+    
+
+  }
+
+  @media only screen and (max-width: 1680px) {
+    
+}
+
+@media only screen and (max-width: 1600px) {
+    
+}
+
+@media only screen and (max-width: 1440px) {
+
+}
+
+@media only screen and (max-width: 1366px) {
+
+}
+@media only screen and (max-width: 1360px) {
+
+}
+@media only screen and (max-width: 1280px) {
+
+}
+@media only screen and (max-width: 1024px) {
+
+}

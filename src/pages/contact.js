@@ -25,7 +25,7 @@ const ContactPage = ({ data }) => (
     <img className="contact-img w-50 h-40" src={ContactImg2}></img>
     </div>
     </div>
-    <section className="contact-page py-4">
+    <section className="contact-page py-3">
       <article className="contact-form">
         <h3 className="form-group col-11 col-md-6 my-3 mx-auto"> Buzz Us!</h3>
         <form action="https://formspree.io/xlepwbzo" method="POST">
