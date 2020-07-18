@@ -1,6 +1,6 @@
 import React from 'react'
 import BackgroundImage from "gatsby-background-image";
-import { Link } from "gatsby"
+
 
 
 export default function BackgroundSection({

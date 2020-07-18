@@ -1,17 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
-
-
+import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BackgroundSection from "../components/Globals/BackgroundSection"
 import Footer from "../components/Globals/Footer"
 import Booking from "../components/Home/Booking"
 
 const ResPage = ({ data }) => (
   <Layout>
     <SEO title="Reservation" />
-    <Booking /> 
+    <Booking />
     <Footer />     
   </Layout>
 )

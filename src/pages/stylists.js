@@ -1,20 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
-
-
+import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
 import Footer from "../components/Globals/Footer"
-import Staff from "../components/Home/Staff"
 
-const StylistPage = ({ data }) => (
+
+const StylistPage = () => (
   <Layout>
     <SEO title="Stylists" />
-    
     <Info />
-
     <Footer />     
   </Layout>
 )

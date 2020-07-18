@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import ShopImg1 from "../../images/Store/22_Store.jpg"
-class Booking extends Component {
+class Shopping extends Component {
   
   componentDidMount(){
     const script=document.createElement('script')
-    script.src="https://www.vagaro.com//resources/WidgetEmbeddedLoader/OZqnCJarEJOcT3qmV35y6JuPlXiz3avV34mC2PeFJ4mC30m9dSycPCu7gevEhAJDXwPW?v=bCrsB8QWsBwfQfI8J5iHNfZbuLxUkoqNhVJ3F2JTthy#"
+    script.src="https://www.vagaro.com//resources/WidgetEmbeddedLoader/OZqnCJarEJOcT3qqV3avV34mC2PeFJ4mC30m9dSycPCu7gevEhAJDXwRW?v=97lCP38LreFzt0FyGFLenXzdO53Z1bHJ7rd1vT6jjsIW#"
     script.async=true
     this.instance.appendChild(script)  
   }
@@ -40,4 +40,4 @@ class Booking extends Component {
     )
   }
 }
-export default Booking
+export default Shopping

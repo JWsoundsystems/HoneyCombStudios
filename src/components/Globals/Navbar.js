@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
-import { FaCartArrowDown } from 'react-icons/fa'
 
 
 export default class Navbar extends Component {
@@ -12,34 +11,38 @@ export default class Navbar extends Component {
             {
             id:1,
             path:'/',
-            text:'Home'
+            text:'HOME |'
             },
             {
             id:2,
             path:'/shop',
-            text:'Shop'
+            text:'SHOP |'
             },
             {
             id:3,
             path:'/reservation',
-            text:'Reservations'
+            text:'RESERVATIONS |'
             },
             {
             id:4,
-            path:'/about',
-            text:'About'
+            path:'https://www.vagaro.com/honeyandcombsalon/staff',
+            text:'CONTACT STYLIST |'
             },
             {
-            id:5,
-            path:'/contact',
-            text:'Contact'
+                id:5,
+                path:'/about',
+                text:'ABOUT |'
             },
             {
-            id:6,
-            path:'/gallery',
-            text:'Gallery'
+                id:6,
+                path:'/contact',
+                text:'BUZZ US |'
             },
-            
+            {
+                id:7,
+                path:'/gallery',
+                text:'GALLERY'
+                },
         ]        
     }
     navbarHandler = () => {
@@ -72,12 +75,10 @@ export default class Navbar extends Component {
                                 
                         )
                     })}
-                    <li className="nav-item ml-sm-5">
-                    <FaCartArrowDown className="cart-icon snipcart-checkout" />
-                    </li>
 
                 </ul>
             </div>
+                  
         </nav>;
     }
 }

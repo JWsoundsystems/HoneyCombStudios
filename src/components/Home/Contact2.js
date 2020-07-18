@@ -1,27 +1,24 @@
 import React from 'react'
-
+import AboutImg1 from "../../images/Store/22_Store.jpg"
 
 export default function Contact() {
     return (
-        <div className="container">
-<div className="row py-4">
-<div className="col-12  text-center">
-
-
-</div>
-</div>
-<section className="contact-page py-4">
-  
+       <div className="container">            
+        <div className="row ">
+        <div className="col-12 about-desc">
+        <img src={AboutImg1} className="about-img" alt="about-img"></img>    
+    <br />
+    <p className="contact-words"><br />
+                    
+                   
     <div className="row contact-titles">
     <h3 className=" col-12 col-md-10 my-3 mx-auto"> Buzz Us!</h3>
-    <h4 className="col-12 col-md-10 my-3 mx-auto">Do you have a question or are you a hairstylist looking to join us?</h4>
-    <h4 className=" col-12 col-md-10 my-3 mx-auto">Please fill out the form below and we will buzz you back!</h4>
+    <h4 className="col-12 col-md-10 my-3 mx-auto contact-titles">Do you have a question or are you a hairstylist looking to join us?</h4>
+    <h4 className=" col-12 col-md-10 my-3 mx-auto contact-titles">Please fill out the form below and we will buzz you back!</h4>
     </div>
-    <br />
     <div className="row">
-    <br />
     <form className="col-12 col-md-10 my-3 mx-auto" action="https://formspree.io/xlepwbzo" method="POST">
-      <div className="form-control col-12 col-md-12 my-3 mx-auto">
+      <div className="col-12 col-md-12 my-3 mx-auto">
         <input type="text" name="name" placeholder="name" className="form-control">
         </input>
         <input type="email" name="email" placeholder="email" className="form-control">
@@ -59,9 +56,12 @@ export default function Contact() {
 
     </div>
     </div>
- 
-</section>
-</div>
+
+    </p>
+    </div>
+                   
+    </div>
+    </div>
 
     )
 }

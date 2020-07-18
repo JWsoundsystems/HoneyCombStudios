@@ -1,29 +1,27 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import Title from '../Globals/Title'
+import AboutImg1 from "../../images/Store/22_Store.jpg"
 
 export default function Info() {
     return (
-        <section className="py-5">
-            <div className="container about">
-                <div className="row">
-                <div className="about-img">
-                <div className="row about-text">
-                <div className="text-center col-12">
-                    <h1>About Honey & Comb Salon</h1>
-                    <br></br>
-                    <p className="lead about-desc text-muted col-12 col-sm-12 mx-auto text-center">
-                    HONEY & COMB SALON LIES IN THE HEART OF DOWNTOWN WALNUT CREEK.  INSPIRED BY THE MID-CENTURY MODERN ERA, THE SALON’S ATMOSPHERE CREATES AN OASIS FOR CLIENTS TO RELAX AND REVIVE.  WHETHER YOU’RE SEEKING A NEW STYLE, COLOR OR CUT, HONEY & COMB SALON WELCOMES EACH CLIENT AS AN OLD FRIEND...AND WE PROVIDE EXPERTISE TAILORED TO YOUR HAIR TYPE.  WE STAY ON TOP OF THE CURRENT HAIR TRENDS WITH OUR CONTINUING EDUCATION, ALL TO ENSURE WE DELIVER THE MOST BEAUTIFUL HAIR.  HONEY & COMB SALON STRIVES TO BE THE “BEST OF THE BEST” LIKE ITS SISTER COMPANY BDB STUDIO IN WALNUT CREEK.  LET US MAKE YOUR LIFE SWEETER BY VISITING HONEY & COMB SALON TODAY AND FIND OUT WHAT THE BUZZ IS ALL ABOUT.
+       <div className="container">
+                  
+                <div className="row ">
+                
+                  
+                    <div className="col-12 about-desc">
+                    <img src={AboutImg1} className="about-img" alt="about-img"></img>    
+                    <br />
+                    <p className="about-words"><br />
+                    <h1 className="">About Honey & Comb Salon</h1>
+                    <br />
+                    Honey & Comb Salon lies in the heart of downtown Walnut Creek.  Inspired by the Mid-Century Modern Era, the salon's atmosphere creates an oasis for clients to relax and revive.  Whether you're seeking a new style, color or cut, Honey & Comb Salon welcomes each client as an old friend...And we provide expertise tailored to your hair type.  We stay on top of the current hair trends with our continuing education, all to ensure we deliver the most beatuiful hair.  Honey & Comb Salon strives to be the "Best of the Best" like its sister company Honey & Comb Studio in Walnut Creek.  Let us make your life sweeter by visiting Honey & Comb Salon today and find out what the Buzz is all about!
+                    <br />
+                    <br />
                     </p>
-                    {/* <Link to="/about/">
-                        <button className="btn text-uppercase btn-yellow">About Page</button>
-                    </Link> */}
-                </div>   
-            </div>
-            </div>
-            </div>
-            </div>
+                    </div>
+                   
+                    </div>
+                    </div>
 
-        </section>
     )
 }
