@@ -1,51 +1,32 @@
-import React from "react"
-import { useStaticQuery } from "gatsby"
-import { graphql } from 'gatsby'
+import React from 'react'
+import { Link } from "gatsby"
+import AboutImg1 from "../../images/Store/22_Store.jpg"
+import { BsXSquare } from "react-icons/bs";
 
+export default function Gallery() {
+    return (
+       <div className="container">
+                  
+                <div className="row ">
+                
+                  
+                    <div className="col-12 about-desc">
+                    <img src={AboutImg1} className="about-img" alt="about-img"></img>    
+                    <br />
+                    <p className="about-words"><br />
+                    <h1 className="">Honey & Comb Salon Gallery</h1>
+                    <br />
+                      (Under Construction...)
+                    <br />
+                    <br />
+                    <Link to="/">
+                    <BsXSquare className="close-btn-3" />
+                    </Link>
+                    </p>
+                    </div>
+                   
+                    </div>
+                    </div>
 
-
-const query = graphql`
-{
-  allStrapiGallery {
-    edges {
-      node {
-        id
-        image {
-          id
-          formats {
-            small {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+    )
 }
-`
-
-const Gallery = () => {
-    const data = useStaticQuery(query)
-    const {allStrapiGallery:{edges:galleries}} = data
-    const [value,setValue] = React.useState(0)
-    const { image } = galleries
-
-  return (
-  <section className="section products py-5">
-      <div className="row window">
-        <div className="col-1"></div>
-        <div className="col-3 col-md-3">
-        <div className="section-center cts-center">
-        [{ image.galleries }]
-        </div>
-        </div>
-      </div>        
-  </section>
-  )
-}
-
-export default Gallery

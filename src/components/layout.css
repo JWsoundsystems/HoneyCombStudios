@@ -44,15 +44,6 @@ body {
     color: var(--mainOrange);
 }
 
-.cart-icon {
-    cursor: pointer;
-    color: var(--mainDark);
-    position: relative;
-    right: 852px;
-    bottom: 2px;
-    height: 50px;
-    width: 30px;
-}
 
 .btn-yellow {
     background: var(--mainOrange);
@@ -68,20 +59,13 @@ body {
 .home-header {
     position: relative;
     right: 18px;
-    bottom: 30px;
-    opacity: .6;
+    bottom: 105px;
+    opacity: .7;
     z-index: -1;
 }
 
 .home-img {
     position: relative;
-}
-
-.nav-cart{
-    position: relative;
-    right: 850px;
-    
-    
 }
 
 
@@ -132,7 +116,7 @@ body {
 
 .book-widget {
     position: relative;
- 
+    
     
 }
 
@@ -143,7 +127,7 @@ height: 1097px;
 width: 1600px;
 right: 250px;
 justify-content: center;
-opacity: .75;
+opacity: .9;
   
 }
 
@@ -165,6 +149,48 @@ opacity: .75;
     border-color: var(--mainOrange);
     border-width: 10px;
     padding: 10px;
+}
+
+.close-btn {
+    position: relative;
+    background-color: var(--mainWhite);
+    color:var(--mainOrange);
+    left: 500px;
+    bottom: 45px;
+
+}
+
+.close-btn-2 {
+    position: relative;
+    background-color: var(--mainWhite);
+    color:var(--mainOrange);
+    left: 500px;
+    bottom: 225px;
+    
+}
+
+.close-btn-3 {
+    position: relative;
+    background-color: var(--mainWhite);
+    color:var(--mainOrange);
+    left: 500px;
+    bottom: 215px;
+}
+
+.insta-btn {
+    position: relative;
+    background-color: var(--mainOrange);
+    color:var(--mainDark);
+    left: 10px;
+    bottom: 2px;
+}
+
+.facebook-btn {
+    position: relative;
+    background-color: var(--mainOrange);
+    color:var(--mainDark);
+    left: 18px;
+    bottom: 2px;
 }
 
 .gallery {
@@ -192,7 +218,7 @@ opacity: .75;
     right: 250px;
     height: 1097px;
     justify-content: center;
-    opacity: .75;   
+    opacity: .9;   
 }
 
 .logos {
@@ -269,12 +295,14 @@ margin: 7px;
     width: 1500px;
     bottom: 1020px;
     right: 200px;
+    
 }
 
 .shop {
     position: relative;
     height: 7px;
     bottom: 0px;
+    
 }
 
 .contact-titles {
@@ -342,7 +370,7 @@ margin: 7px;
 
 
 .footer-text {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .footer-gallery {
@@ -399,45 +427,82 @@ margin: 7px;
 
   @media only screen and (max-width: 1920px) {
 
+    .container {
+
+        min-height: 62vh;
+    }
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 36px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange);
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+    
     body {
         background:url('../images/04_Wallpaper.png');
         color: var(--mainDark);
         font-family: 'Josefin Slab', serif !important;
-        background-size: 165vh;
+        background-size: 180vh;
         background-position-y: 240px;
-        background-position-x: 42.5px;
+        background-position-x: 152.5px;
+        
     }
-
-    .navbar {
-        width: 1920px;
+    
+    .text-orange {
+        color: var(--mainOrange);
     }
-
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange);
+        color: var(--mainDark);
+    }
+    
     .home-menu {
+      position: relative;
+      bottom:220px
+    
+    }
+    
+    .home-header {
         position: relative;
-        height: 505px;
-      }
-
-      .home-btn {
+        right: 18px;
+        bottom: 97px;
+        opacity: .7;
+        z-index: -1;
+    }
+    
+    .home-img {
         position: relative;
-        bottom: 360px;
-        left:230px;
+    }
+    
+    
+    .home-btn {
+        position: relative;
+        right: 169px;
+        top:435px;
         text-align: center;
         display: block;
         margin-left: auto;
         margin-right: auto;
     
     }
-
-    .home-header {
-        position: relative;
-        right:30px;
-        bottom:50px
-    }
     
     .home-btn-shop {
         position: relative;
-        right:95px;
-        top:360px;
+        right: 55px;
+        top:435px;
         text-align: center;
         display: block;
         margin-left: auto;
@@ -447,8 +512,8 @@ margin: 7px;
     
     .home-btn-hive {
         position: relative;
-        bottom: 360px;
-        left: 205px;
+        left: 60px;
+        top:435px;
         text-align: center;
         display: block;
         margin-left: auto;
@@ -458,57 +523,121 @@ margin: 7px;
     
     .home-btn-join {
         position: relative;
-        top: 360px;
-        right: 280px;
+        left: 180px;
+        top:435px;
         text-align: center;
         display: block;
         margin-left: auto;
         margin-right: auto;
      
     }
-
-    .home-img {
+    
+    
+    .book-widget {
         position: relative;
-        height: 65%;
-        width: 65%;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        bottom: 100px
+        
+        
     }
     
-    .home-img-shop {
-        position: relative;
-        height: 65%;
-        width: 65%;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        bottom: 100px  
+    
+    .about-img {
+    position: relative;
+    height: 1097px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
     }
     
-    .home-img-hive {
-        position: relative;
-        height: 65%;
-        width: 65%;
+    
+    .about-desc {
+    
         text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        bottom: 100px
+        font-size: larger;
+        font-style: bold;
+        font-size: 26px;
+        height: 200px;
     }
     
-    .home-img-join {
+    .about-words {
         position: relative;
-        height: 65%;
-        width: 65%;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        bottom: 100px
+        bottom: 800px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 215px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+        position: relative;
+        width: 1600px;
+        right: 250px;
+        height: 1097px;
+        justify-content: center;
+        opacity: .9;   
     }
     
     .logos {
@@ -516,29 +645,48 @@ margin: 7px;
         text-align: center;
         bottom: 0px;
         padding: 10px;
-        height: 10px;
+        min-height: 13vh;
     }
-
-    .products {
-        height: 73vh;
+    
+    .logo-header {
         position: relative;
-        bottom: 60px;
-        right:50px;
-        overflow: scroll;       
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
     }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
     .product {
         height: 25vh;
         position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
     }
     
     .prod {
     position: relative;
-    min-height: 25vh;
-    
+    min-height: 10vh;
+    margin: 7px;
     }
+    
     .product-img {
-        width: 280px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         border-style: groove;
         border-color: var(--mainOrange);
         border-width: 10px;
@@ -549,14 +697,117 @@ margin: 7px;
         bottom: 36px;
         left: 118px
     }
-    .overlay {
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: relative;
+        justify-content: center;
+        width: 1500px;
+        bottom: 1020px;
+        right: 200px;
+        
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        background-color: var(--mainGrey) ;
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange);
+        padding: 25px;
+        position: relative;
+        font-size: 22px;
+        top: 50px;
+        left:20px;
+        height: 200px;    
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 1000px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+        position: relative;
+        background-color: var(--mainOrange);
+        font-size: 16px;
+        top:317px
+        
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        height: 250px;
-        width: 280px;
+        height: 300px;
+        width: 300px;
         opacity: 0;
         transition: .5s ease;
         background-color: var(--mainOrange);
@@ -577,139 +828,16 @@ margin: 7px;
         transform: translate(-50%, -50%);
         text-align: center;
       }
-
-      .btn-all {
-        position: absolute;
-        right:29px;
-        bottom:40px;
-        margin:11px
-    }
-
-  
-
-   .res-spacer {
-       position: relative;
-       
-     
-   }
-
-
-    .about-text {
-        position: relative;
-        right: 100px;
-        top: 75px;
-    }
     
-    .about {
-        min-height: 30.5vh;
-        text-align: center;
-        opacity: .9;
-    }
-       
-    
-    .about-2 {
-       
-        text-align: center;
-        position: relative;
-        opacity: .9;
-        height: 300px;
-        
-    }
-    
-    .about-header {
-        position: relative;
-        width:90%;
-        height: 95%;
-        bottom: 30px;
-    }
-    
-    .about-text {  
-        
-        font-weight: bold;
-        background-color: var(--mainGrey);
-        position: relative;
-        width: 90%;
-        right:65px;
-        top: 95px;
-        height: 425px;
-        display: flex;
-        padding:10px;
-        opacity: .95;
-             
-    }
-    
-    
-    
-    .about-desc {
-        position: relative;
-        bottom: 1px;
-        font-size: 18px;
-        font-weight: bold;
-        background-color: var(--mainOrange);
-        padding: 15px;
-        height: 320px;
-    }
-
-    .contact-page {
- 
-        background-color: var(--mainGrey);
-        opacity: .95;
-        width: 42%;
-        position: relative;
-        left:  540px;
-        top:20px;
-        min-height: 73.8vh;
-     
-    }
-    
-    .contact-titles {
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
       
-        font-weight: bolder;
-        font-size: 20px;
-    }
-    
-    .contact-address {
+      .gallery {
         position: relative;
-        right: 5px;
-        width: 100%;
-        height: 90px;
-        text-align: center;
-        font-size: 22px;
-        font-weight: bold;   
-    }
-    
-    .contact-form {
-        background-color: var(--mainGrey) ;
-        position: relative;
-        height: 200px;
-        font-size: 22px;
-        
-    }
-    
-    .contact-info {
-    
-        padding: 15px;
-        position: relative;
-        font-size: 14px;
-        top: 60px;
-        left:20px;
-        height:130px;
-    }
-    
-    .form-group {
-        min-height: 8vh;
-        font-weight: normal;
-    }
-    
-    .submit-btn {
-        position: relative;
-        top: 138px;
-    }
-    
-
-    .gallery {
-        position: relative;
-        height: 945px;
+        height: 1098px;
         overflow: scroll;   
     }
 
@@ -717,15 +845,1254 @@ margin: 7px;
   }
 
   @media only screen and (max-width: 1680px) {
+    .container {
+
+        min-height: 62vh;
+    }
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 36px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange);
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange);
+        color: var(--mainDark);
+    }
+    
+    .home-menu {
+      position: relative;
+      bottom:220px
+    
+    }
+    
+    .home-header {
+        position: relative;
+        right: 18px;
+        bottom: 97px;
+        opacity: .7;
+        z-index: -1;
+    }
+    
+    .home-img {
+        position: relative;
+    }
+    
+    
+    .home-btn {
+        position: relative;
+        right: 169px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: relative;
+        right: 55px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: relative;
+        left: 60px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: relative;
+        left: 180px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        
+        
+    }
+    
+    
+    .about-img {
+    position: relative;
+    height: 1097px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 26px;
+        height: 200px;
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 800px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 215px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+        position: relative;
+        width: 1600px;
+        right: 250px;
+        height: 1097px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: relative;
+        justify-content: center;
+        width: 1500px;
+        bottom: 1020px;
+        right: 200px;
+        
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        background-color: var(--mainGrey) ;
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange);
+        padding: 25px;
+        position: relative;
+        font-size: 22px;
+        top: 50px;
+        left:20px;
+        height: 200px;    
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 1000px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+        position: relative;
+        background-color: var(--mainOrange);
+        font-size: 16px;
+        top:317px
+        
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
     
 }
 
 @media only screen and (max-width: 1600px) {
+    .container {
+
+        min-height: 62vh;
+    }
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 36px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange);
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange);
+        color: var(--mainDark);
+    }
+    
+    .home-menu {
+      position: relative;
+      bottom:220px
+    
+    }
+    
+    .home-header {
+        position: relative;
+        right: 18px;
+        bottom: 97px;
+        opacity: .7;
+        z-index: -1;
+    }
+    
+    .home-img {
+        position: relative;
+    }
+    
+    
+    .home-btn {
+        position: relative;
+        right: 169px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: relative;
+        right: 55px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: relative;
+        left: 60px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: relative;
+        left: 180px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        
+        
+    }
+    
+    
+    .about-img {
+    position: relative;
+    height: 1097px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 26px;
+        height: 200px;
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 800px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 215px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+        position: relative;
+        width: 1600px;
+        right: 250px;
+        height: 1097px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: relative;
+        justify-content: center;
+        width: 1500px;
+        bottom: 1020px;
+        right: 200px;
+        
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        background-color: var(--mainGrey) ;
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange);
+        padding: 25px;
+        position: relative;
+        font-size: 22px;
+        top: 50px;
+        left:20px;
+        height: 200px;    
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 1000px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+        position: relative;
+        background-color: var(--mainOrange);
+        font-size: 16px;
+        top:317px
+        
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
     
 }
 
 @media only screen and (max-width: 1440px) {
+    .container {
 
+        min-height: 62vh;
+    }
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 36px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange);
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange);
+        color: var(--mainDark);
+    }
+    
+    .home-menu {
+      position: relative;
+      bottom:220px
+    
+    }
+    
+    .home-header {
+        position: relative;
+        right: 18px;
+        bottom: 97px;
+        opacity: .7;
+        z-index: -1;
+    }
+    
+    .home-img {
+        position: relative;
+    }
+    
+    
+    .home-btn {
+        position: relative;
+        right: 169px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: relative;
+        right: 55px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: relative;
+        left: 60px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: relative;
+        left: 180px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        
+        
+    }
+    
+    
+    .about-img {
+    position: relative;
+    height: 1097px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 26px;
+        height: 200px;
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 800px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 215px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+        position: relative;
+        width: 1600px;
+        right: 250px;
+        height: 1097px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: relative;
+        justify-content: center;
+        width: 1500px;
+        bottom: 1020px;
+        right: 200px;
+        
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        background-color: var(--mainGrey) ;
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange);
+        padding: 25px;
+        position: relative;
+        font-size: 22px;
+        top: 50px;
+        left:20px;
+        height: 200px;    
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 1000px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+        position: relative;
+        background-color: var(--mainOrange);
+        font-size: 16px;
+        top:317px
+        
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
 }
 
 
@@ -735,14 +2102,1666 @@ margin: 7px;
 
 
 @media only screen and (max-width: 1366px) {
+    .container {
 
+        min-height: 62vh;
+    }
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 36px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange);
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange);
+        color: var(--mainDark);
+    }
+    
+    .home-menu {
+      position: relative;
+      bottom:220px
+    
+    }
+    
+    .home-header {
+        position: relative;
+        right: 18px;
+        bottom: 97px;
+        opacity: .7;
+        z-index: -1;
+    }
+    
+    .home-img {
+        position: relative;
+    }
+    
+    
+    .home-btn {
+        position: relative;
+        right: 169px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: relative;
+        right: 55px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: relative;
+        left: 60px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: relative;
+        left: 180px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        
+        
+    }
+    
+    
+    .about-img {
+    position: relative;
+    height: 1097px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 26px;
+        height: 200px;
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 800px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 215px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+        position: relative;
+        width: 1600px;
+        right: 250px;
+        height: 1097px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: relative;
+        justify-content: center;
+        width: 1500px;
+        bottom: 1020px;
+        right: 200px;
+        
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        background-color: var(--mainGrey) ;
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange);
+        padding: 25px;
+        position: relative;
+        font-size: 22px;
+        top: 50px;
+        left:20px;
+        height: 200px;    
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 1000px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+        position: relative;
+        background-color: var(--mainOrange);
+        font-size: 16px;
+        top:317px
+        
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
 }
 @media only screen and (max-width: 1360px) {
+    .container {
 
+        min-height: 62vh;
+    }
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 36px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange);
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange);
+        color: var(--mainDark);
+    }
+    
+    .home-menu {
+      position: relative;
+      bottom:220px
+    
+    }
+    
+    .home-header {
+        position: relative;
+        right: 18px;
+        bottom: 97px;
+        opacity: .7;
+        z-index: -1;
+    }
+    
+    .home-img {
+        position: relative;
+    }
+    
+    
+    .home-btn {
+        position: relative;
+        right: 169px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: relative;
+        right: 55px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: relative;
+        left: 60px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: relative;
+        left: 180px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        
+        
+    }
+    
+    
+    .about-img {
+    position: relative;
+    height: 1097px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 26px;
+        height: 200px;
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 800px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 215px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+        position: relative;
+        width: 1600px;
+        right: 250px;
+        height: 1097px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: relative;
+        justify-content: center;
+        width: 1500px;
+        bottom: 1020px;
+        right: 200px;
+        
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        background-color: var(--mainGrey) ;
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange);
+        padding: 25px;
+        position: relative;
+        font-size: 22px;
+        top: 50px;
+        left:20px;
+        height: 200px;    
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 1000px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+        position: relative;
+        background-color: var(--mainOrange);
+        font-size: 16px;
+        top:317px
+        
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
 }
 @media only screen and (max-width: 1280px) {
+    .container {
 
+        min-height: 62vh;
+    }
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 36px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange);
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange);
+        color: var(--mainDark);
+    }
+    
+    .home-menu {
+      position: relative;
+      bottom:220px
+    
+    }
+    
+    .home-header {
+        position: relative;
+        right: 18px;
+        bottom: 97px;
+        opacity: .7;
+        z-index: -1;
+    }
+    
+    .home-img {
+        position: relative;
+    }
+    
+    
+    .home-btn {
+        position: relative;
+        right: 169px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: relative;
+        right: 55px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: relative;
+        left: 60px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: relative;
+        left: 180px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        
+        
+    }
+    
+    
+    .about-img {
+    position: relative;
+    height: 1097px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 26px;
+        height: 200px;
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 800px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 215px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+        position: relative;
+        width: 1600px;
+        right: 250px;
+        height: 1097px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: relative;
+        justify-content: center;
+        width: 1500px;
+        bottom: 1020px;
+        right: 200px;
+        
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        background-color: var(--mainGrey) ;
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange);
+        padding: 25px;
+        position: relative;
+        font-size: 22px;
+        top: 50px;
+        left:20px;
+        height: 200px;    
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 1000px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+        position: relative;
+        background-color: var(--mainOrange);
+        font-size: 16px;
+        top:317px
+        
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
 }
 @media only screen and (max-width: 1024px) {
+    .container {
 
+        min-height: 62vh;
+    }
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 36px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange);
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange);
+        color: var(--mainDark);
+    }
+    
+    .home-menu {
+      position: relative;
+      bottom:220px
+    
+    }
+    
+    .home-header {
+        position: relative;
+        right: 18px;
+        bottom: 97px;
+        opacity: .7;
+        z-index: -1;
+    }
+    
+    .home-img {
+        position: relative;
+    }
+    
+    
+    .home-btn {
+        position: relative;
+        right: 169px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: relative;
+        right: 55px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: relative;
+        left: 60px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: relative;
+        left: 180px;
+        top:435px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        
+        
+    }
+    
+    
+    .about-img {
+    position: relative;
+    height: 1097px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 26px;
+        height: 200px;
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 800px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 215px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+        position: relative;
+        width: 1600px;
+        right: 250px;
+        height: 1097px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: relative;
+        justify-content: center;
+        width: 1500px;
+        bottom: 1020px;
+        right: 200px;
+        
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        background-color: var(--mainGrey) ;
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange);
+        padding: 25px;
+        position: relative;
+        font-size: 22px;
+        top: 50px;
+        left:20px;
+        height: 200px;    
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 1000px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+        position: relative;
+        background-color: var(--mainOrange);
+        font-size: 16px;
+        top:317px
+        
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
 }

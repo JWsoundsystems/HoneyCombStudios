@@ -38,7 +38,7 @@ const IndexPage = ({ data }) => (
 
         <div className="col-3 home-btn-join mx-auto justify-content-center">
           <Link to="/contact/">
-        <button className=" btn-lg text-uppercase btn-yellow p-15">Join Us</button>
+        <button className=" btn-lg text-uppercase btn-yellow p-15">Buzz Us</button>
         </Link>
         </div>  
         </div>

@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from "gatsby"
 import AboutImg1 from "../../images/Store/22_Store.jpg"
+import { BsXSquare } from "react-icons/bs";
 
 export default function Contact() {
     return (
@@ -16,6 +18,9 @@ export default function Contact() {
     <h4 className="col-12 col-md-10 my-3 mx-auto contact-titles">Do you have a question or are you a hairstylist looking to join us?</h4>
     <h4 className=" col-12 col-md-10 my-3 mx-auto contact-titles">Please fill out the form below and we will buzz you back!</h4>
     </div>
+    <Link to="/">
+    <BsXSquare className="close-btn-2" />
+    </Link>
     <div className="row">
     <form className="col-12 col-md-10 my-3 mx-auto" action="https://formspree.io/xlepwbzo" method="POST">
       <div className="col-12 col-md-12 my-3 mx-auto">
