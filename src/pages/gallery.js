@@ -1,20 +1,39 @@
 import React from "react"
 import Layout from "../components/layout"
-import Footer from "../components/Globals/Footer" 
-import Gallery from "../components/Home/galleries"
+import { graphql } from "gatsby"
+import Galleries from "../components/Home/Galleries"
+// ...GatsbyImageSharpFluid
 
-
-
-
-
-const GalleryPage = () => {
+const GalleryPage = ({
+  data:{allStrapiGalleries: {nodes : image }},
+}) => {
   return <Layout>
-    <Gallery  />
-    <Footer />     
-  </Layout> 
+    <section className="Gallery-page">
+  <Galleries />
+    </section>
+  </Layout>
 }
-
-
-
+export const query = graphql`
+  {
+    allStrapiGallery {
+      edges {
+        node {
+          image {
+            formats {
+              small {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+          }
+          strapiId
+        }
+      }
+    }
+  }
+`
 
 export default GalleryPage

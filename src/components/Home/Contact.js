@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsXSquare } from "react-icons/bs";
+
 
 
 export default function Contact() {
@@ -14,9 +14,7 @@ export default function Contact() {
 <section className="contact-page py-4">
   
     <div className="row contact-titles">
-    <Link to="/">
-    <BsXSquare className="close-btn" />
-    </Link>
+    
     <h3 className=" col-12 col-md-10 my-3 mx-auto"> Buzz Us!</h3>
     <h4 className="col-12 col-md-10 my-3 mx-auto">Do you have a question or are you a hairstylist looking to join us?</h4>
     <h4 className=" col-12 col-md-10 my-3 mx-auto">Please fill out the form below and we will buzz you back!</h4>

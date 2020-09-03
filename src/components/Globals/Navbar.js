@@ -11,7 +11,7 @@ export default class Navbar extends Component {
             {
             id:1,
             path:'/',
-            text:'HOME |'
+            text:'| HOME |'
             },
             {
             id:2,
@@ -41,7 +41,7 @@ export default class Navbar extends Component {
             {
                 id:7,
                 path:'/gallery',
-                text:'GALLERY'
+                text:'GALLERY |'
                 },
         ]        
     }

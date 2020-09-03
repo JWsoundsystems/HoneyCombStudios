@@ -11,22 +11,22 @@ class Booking extends Component {
     
   render() {
     return (
-      <div className="container">            
+      <div className="container shop-container">            
         <div className="row shop">
-        <div className="col-12 shop">
+        <div className="col-12 ">
         
         <img src={ShopImg1} className="shop-img justify-content-center" alt="Shop-img"></img>    
       <div className="">
         <div
           id="frameTitle"
-          className="embedded-widget-title"
+          className="book-widget"
           style={{
             fontSize: '23px',
             color: '#333',
             fontFamily: 'Arial, Helvetica, sans-serif',
             textAlign:'center',
             boxSizing:'border-box',
-            height:`0px`
+          
             
           }}>
         </div>
