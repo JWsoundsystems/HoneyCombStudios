@@ -882,8 +882,6 @@ margin: 7px;
      
 }
 
- 
-    
     
     .footer-text {
         font-size: 20px;
@@ -892,6 +890,7 @@ margin: 7px;
         border-color: var(--mainDark) ;
     }
     
+
     .footer-gallery {
         position: relative;
         top:150px;
@@ -990,6 +989,12 @@ margin: 7px;
         font-weight: bold;
     
     }
+
+    .shop-container {
+
+        min-height: 40vh;
+        
+    }
     
     body {
         background:url('../images/04_Wallpaper.png');
@@ -1014,7 +1019,7 @@ margin: 7px;
         display: inline-flexbox;
         position: absolute;
         left: 80px;
-        
+        font-size: large;
     }
     
     .home-menu {
@@ -1027,7 +1032,7 @@ margin: 7px;
     }
     
     .home-header {
-        position: absolute;
+        position: relative;
         opacity: 1;
      
 
@@ -1035,9 +1040,8 @@ margin: 7px;
     
     .home-img {
         position: absolute;
-        left: 305px;
-        top: -40px;
-       
+        left: 190px;
+       top:-35px
     }
     
     
@@ -1181,7 +1185,7 @@ margin: 7px;
     }
     
     .shop-background {
-        min-height: 12vh;
+      
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1189,9 +1193,8 @@ margin: 7px;
         background-size: cover;
     }
     
-    .shop-img {
-      
-         
+    .book-widget {
+         min-height: 10vh;
     }
     
     .logos {
@@ -1342,7 +1345,7 @@ margin: 7px;
         min-height: 10vh;
         width: 100%;
         position: absolute;
-        right: 1px;
+        right: 0px;
         top: 800px;
     }
     
@@ -1368,13 +1371,13 @@ margin: 7px;
     
     
     .footer-text {
-        font-size: 20px;
+        font-size: px;
     }
     
     .footer-gallery {
         position: relative;
         top:150px;
-        font-size: 16px;
+        
     }
     
     
@@ -1427,494 +1430,16 @@ margin: 7px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1247px) {
    
-    
-    h1,h2,h3,h4,h5,h6, nav {
+
+    nav {
         font-family: 'Josefin Slab', serif !important;
         letter-spacing: 0.25rem !important;
         word-spacing: 5px;
-        font-size: 30px;
-    }
-    
-    .navbar {
-        background-color: var(--mainOrange2);
-    }
-    
-    .nav-link {
-    
-        font-size: 24px;
-    
-    }
-    
-    body {
-        background:url('../images/04_Wallpaper.png');
-        color: var(--mainDark);
-        font-family: 'Josefin Slab', serif !important;
-        background-size: 180vh;
-        background-position-y: 240px;
-        background-position-x: 152.5px;
-        
-    }
-    
-    .text-orange {
-        color: var(--mainOrange);
-    }
-    
-    
-    .btn-yellow {
-        background: var(--mainOrange2);
-        color: var(--mainDark);
-        display: inline-flexbox;
-        position: relative;
-
-    }
-    
-    .home-menu {
-      position: absolute;
-      width: 70%;
-      right: 255px;
-      bottom:190px; 
-      flex-direction: row;
-    
-    }
-    
-    .home-header {
-        position: absolute;
-        display: -webkit-flex;
-        right: 2.5px;
-        top: 5px;
-        opacity: .8;
-        z-index: -1;
-        
-    
-    }
-    
-    .home-img {
-        position: relative;
-        
-    }
-    
-    
-    .home-btn {
-        position: grid;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-    
-    .home-btn-shop {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-hive {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-join {
-        position: grid;
-      
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-     
-    }
-    
-    
-    .book-widget {
-        position: relative;
-        top: 125px;
-    }
-    
-    
-    .about-img {
-        position: relative;
-        height: 750px;
-        width: 1200px;
-        right: 35px;
-        justify-content: center;
-        opacity: .9;  
-        background-color: var(--mainOrange);
-      
-    }
-    
-    
-    .about-desc {
-    
-        text-align: center;
-        font-size: larger;
-        font-style: bold;
-        font-size: 21px;
-        height: 200px;
-        
-    }
-    
-    .about-words {
-        position: relative;
-        bottom: 640px;
-        width: 80%;
-        left: 100px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-        padding: 10px;
-
-    }
-    
-    .close-btn {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 400px;
-        bottom: 30px;
-    
-    }
-    
-    .close-btn-2 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 310px;
-        bottom: 245px;
-        
-    }
-    
-    .close-btn-3 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 400px;
-        bottom: 175px;
+        font-size: 10px;
     }
 
-    .close-btn-4 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 5px;
-        bottom: 1050px;
-    }
-    
-    .insta-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 10px;
-        bottom: 2px;
-    }
-    
-    .facebook-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 18px;
-        bottom: 2px;
-    }
-    
-    .gallery {
-        position: relative;
-        height: 1124px;
-        overflow: scroll;
-    }
-    
-    .shop {
-        position: relative;
-    }
-    
-
-    .shop-img {
-
-    }
-    
-    .logos {
-        position: relative;
-        text-align: center;
-        bottom: 0px;
-        padding: 10px;
-        min-height: 13vh;
-    }
-    
-    .logo-header {
-        position: relative;
-        top:403px;
-        left:70px;
-        height:20px;
-        width: 400px;
-    }
-    
-    
-    .products {
-        height: 78vh;
-        position: relative;
-        left: 280px;
-        width: 80%;
-        overflow: scroll;
-        
-       
-    }
-    
-    .product {
-        height: 25vh;
-        position: relative;
-        word-wrap: break-word;
-        bottom: 90px;
-    }
-    
-    .production {
-        position: relative; 
-    }
-    
-    .prod {
-    position: relative;
-    min-height: 10vh;
-    margin: 7px;
-    }
-    
-    .product-img {
-        width: 300px;
-        height: 300px;
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-    }
-    
-    .product-title {
-        position: relative;
-        bottom: 36px;
-        left: 118px
-    }
-    
-    .btn-all {
-        position: absolute;
-        bottom:30px;
-        margin:15px
-    }
-  
-    
-    .vagaro-container {
-        position: absolute;
-        left:-220px;
-        width:1600px;
-        top: 10px;
-        right: 0px;
-        height: 710px;
-        overflow: scroll; 
-    }
-
-    .contact-address {
-        position: relative;
-        width: 650px;
-        bottom: 72px;
-        left:4.5px
-        
-    }
-    
-    .contact-info {
-        position: relative;
-        width: 10px;
-        height: 130px;
-        bottom: 30px;
-        font-size: small;
-        
-    }
-    
-    .contact-titles {
-        font-size: 17.5px;
-        position: relative;
-        bottom: 25px;
-        width: 660px;   
-    }
-    
-    
-    .contact-words {
-        position: relative;
-        bottom: 730px;
-        left: 225px;
-        height: 700px;
-        width: 700px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-       
-    }
-    
-    .contact-form {
-        position: relative;
-        background-color: var(--mainWhite);
-        height: 200px;
-        width:670px;
-        bottom: 90px;
-        left: 10px
-    }
-   
-    .submit-btn {
-        position: relative;
-        right: 225px;
-        bottom: 28px;
-    }
-    
-    .footer {
-
-        background-color: var(--mainOrange2);
-        min-height: 10vh;
-        width: 190%;
-        position: relative;
-        right: 708px;
-        top: 128px;
-    }
-    
-    .foot-address {
-        position: grid;
-        font-size: larger;
-        left: 530px;
-       
-    }
-    
-    .foot-title {
-        position: grid;
-        font-size: larger;
-        left:245px
-    }
-    
-    .foot-phone {
-        position: grid;
-        font-size: larger;
-        right:10px
-         
-    }
-    
-    
-    .footer-text {
-        font-size: 20px;
-    }
-    
-    .footer-gallery {
-        position: relative;
-        top:150px;
-        font-size: 16px;
-    }
-    
-    
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 300px;
-        width: 300px;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: var(--mainOrange);
-      }
-      
-      .container:hover .overlay {
-        opacity: .9;
-      }
-      
-      .text {
-        color: white;
-        font-size: 14px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-    
-      .gallery-img {
-      border-style: groove;
-      border-color: var(--mainOrange);
-      border-width: 10px;
-      }
-      
-      .gallery {
-        position: relative;
-        height: 1098px;
-        overflow: scroll;   
-    }
-    
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-width: 1440px) {
-    
-    
-    h1,h2,h3,h4,h5,h6, nav {
-        font-family: 'Josefin Slab', serif !important;
-        letter-spacing: 0.25rem !important;
-        word-spacing: 5px;
-        font-size: 30px;
-    }
-    
     .navbar {
         background-color: var(--mainOrange2);
     }
@@ -1922,1845 +1447,239 @@ margin: 7px;
     .nav-link {
     
         font-size: 18px;
-    
-    }
-    
-    body {
-        background:url('../images/04_Wallpaper.png');
-        color: var(--mainDark);
-        font-family: 'Josefin Slab', serif !important;
-        background-size: 180vh;
-        background-position-y: 240px;
-        background-position-x: 152.5px;
-        
-    }
-    
-    .text-orange {
-        color: var(--mainOrange);
-    }
-    
-    
-    .btn-yellow {
-        background: var(--mainOrange2);
-        color: var(--mainDark);
-        display: inline-flexbox;
-        position: relative;
-
-    }
-    
-    .home-menu {
-      position: absolute;
-      width: 75%;
-      right: 185px;
-      bottom:190px; 
-      flex-direction: row;
-    
-    }
-    
-    .home-header {
-        position: absolute;
-        display: -webkit-flex;
-        right: 2.5px;
-        top: 5px;
-        opacity: .8;
-        z-index: -1;
-        
-    
-    }
-    
-    .home-img {
-        position: relative;
-     
-    }
-    
-    
-    .home-btn {
-        position: grid;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-    
-    .home-btn-shop {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-hive {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-join {
-        position: grid;
-      
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-     
-    }
-    
-    .book-widget {
-        position: relative;
-        top: 125px;
-    }
-    
-    
-    .about-img {
-        position: relative;
-        width: 1000px;
-        height: 625px;
-        right: 5px;
-        justify-content: center;
-        opacity: .9; 
-      
-    }
-    
-    
-    .about-desc {
-    
-        text-align: center;
-        font-size: larger;
-        font-style: bold;
-        font-size: 21px;
-        height: 200px;
-        
-    }
-    
-    .about-words {
-        position: relative;
-        bottom: 550px;
-        width: 80%;
-        left: 100px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-        padding: 10px;
-
-    }
-    
-    .close-btn {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 400px;
-        bottom: 30px;
-    
-    }
-    
-    .close-btn-2 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 420px;
-        bottom: 195px;
-        
-    }
-    
-    .close-btn-3 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 400px;
-        bottom: 175px;
-    }
-
-    .close-btn-4 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 5px;
-        bottom: 1050px;
-    }
-    
-    .insta-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 10px;
-        bottom: 2px;
-    }
-    
-    .facebook-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 18px;
-        bottom: 2px;
-    }
-    
-    .gallery {
-        position: relative;
-        height: 1124px;
-        overflow: scroll;
-    }
-    
-    .shop {
-        position: relative;
-    }
-    
-
-    .shop-img {
-        
-    }
-    
-    .logos {
-        position: relative;
-        text-align: center;
-        bottom: 0px;
-        padding: 10px;
-        min-height: 13vh;
-    }
-    
-    .logo-header {
-        position: relative;
-        top:403px;
-        left:70px;
-        height:20px;
-        width: 400px;
-    }
-    
-    
-    .products {
-        height: 78vh;
-        position: relative;
-        left: 280px;
-        width: 80%;
-        overflow: scroll;
-        
-       
-    }
-    
-    .product {
-        height: 25vh;
-        position: relative;
-        word-wrap: break-word;
-        bottom: 90px;
-    }
-    
-    .production {
-        position: relative; 
-    }
-    
-    .prod {
-    position: relative;
-    min-height: 10vh;
-    margin: 7px;
-    }
-    
-    .product-img {
-        width: 300px;
-        height: 300px;
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-    }
-    
-    .product-title {
-        position: relative;
-        bottom: 36px;
-        left: 118px
-    }
-    
-    .btn-all {
-        position: absolute;
-        bottom:30px;
-        margin:15px
-    }
-  
-    
-    .vagaro-container {
-        position: absolute;
-        height:600px;
-        width: 750px;
-        left:5px;
-        bottom:290px;
-        overflow: scroll;
-    }
-
-    .contact-address {
-        position: relative;
-        width: 890px;
-        bottom: 122px;
-        right:5px
-        
-    }
-    
-    .contact-info {
-        position: relative;
-        width: 10px;
-        height: 130px;
-        bottom: 30px;
-        font-size: small;
-        
-    }
-    
-    .contact-titles {
-        font-size: 15.5px;
-        position: relative;
-        bottom: 35px;
-        width: 899px;   
-    }
-    
-    .contact-buzz {
-        position: relative;
-        bottom: 10px;
-        left: 20px
-    }
-    
-    .contact-words {
-        position: relative;
         font-weight: bold;
-        bottom: 580px;
-        left: 85px;
-        height: 560px;
-        width: 940px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-       
+    
     }
     
-    .contact-form {
-        position: relative;
-        background-color: var(--mainWhite);
-        height: 200px;
-        width:870px;
-        bottom: 120px;
-        left: 10px
-    }
+    
+} 
+
+
+
+
+@media only screen and (max-width: 1199px) {
    
-    .submit-btn {
-        position: relative;
-        right: 295px;
-        bottom: 28px;
-    }
-    
-    .footer {
 
-        background-color: var(--mainOrange2);
-        min-height: 12vh;
-        width: 178.8%;
-        position: relative;
-        right: 708px;
-        top: 137px;
-        
-    }
-    
-    .foot-address {
-        position: grid;
-        font-size: larger;
-        left: 580px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .foot-title {
-        position: grid;
-        font-size: larger;
-        left:300px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .foot-phone {
-        position: grid;
-        font-size: larger;
-        left:40px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .footer-gallery {
-        position: relative;
-        top:150px;
-        font-size: 16px;
-    }
-    
-    
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 300px;
-        width: 300px;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: var(--mainOrange);
-      }
-      
-      .container:hover .overlay {
-        opacity: .9;
-      }
-      
-      .text {
-        color: white;
-        font-size: 14px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-    
-      .gallery-img {
-      border-style: groove;
-      border-color: var(--mainOrange);
-      border-width: 10px;
-      }
-      
-      .gallery {
-        position: relative;
-        height: 1098px;
-        overflow: scroll;   
-    }
-    
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-width: 1366px) {
-    
-
-
-    h1,h2,h3,h4,h5,h6, nav {
+    nav {
         font-family: 'Josefin Slab', serif !important;
         letter-spacing: 0.25rem !important;
         word-spacing: 5px;
-        font-size: 30px;
+        font-size: 10px;
     }
-    
+
     .navbar {
         background-color: var(--mainOrange2);
     }
     
     .nav-link {
     
-        font-size: 18px;
-    
-    }
-    
-    body {
-        background:url('../images/04_Wallpaper.png');
-        color: var(--mainDark);
-        font-family: 'Josefin Slab', serif !important;
-        background-size: 180vh;
-        background-position-y: 240px;
-        background-position-x: 152.5px;
-        
-    }
-    
-    .text-orange {
-        color: var(--mainOrange);
-    }
-    
-    
-    .btn-yellow {
-        background: var(--mainOrange2);
-        color: var(--mainDark);
-        display: inline-flexbox;
-        position: relative;
-       
-    }
-    
-    .home-menu {
-      position: absolute;
-      width: 75%;
-      right: 185px;
-      bottom:190px; 
-      flex-direction: row;
+        font-size: 16px;
+        font-weight: bold;
     
     }
     
     .home-header {
-        position: absolute;
-        display: -webkit-flex;
-        right: 2.5px;
-        top: 5px;
-        opacity: .8;
-        z-index: -1;
-        
-    
+        position: relative;
+        opacity: 1;
+     
+
     }
     
     .home-img {
-        position: relative;
-       
-    }
-    
-    
-    .home-btn {
-        position: grid;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-    
-    .home-btn-shop {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-hive {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-join {
-        position: grid;
-      
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-     
-    }
-    
-    
-    
-    .book-widget {
-        position: relative;
-   
-    }
-    
-    
-    .about-img {
-    position: relative;
-    width: 950px;
-    height: 640px;
-    left: -10px;
-    justify-content: center;
-    opacity: .9;   
-      
-    }
-    
-    
-    .about-desc {
-    
-        text-align: center;
-        font-size: larger;
-        font-style: bold;
-        font-size: 21px;
-        height: 200px;
-        
-    }
-    
-    .about-words {
-        position: relative;
-        bottom: 515px;
-        width: 80%;
-        left: 100px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-        padding: 10px;
-
-    }
-    
-    .close-btn {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 400px;
-        bottom: 30px;
-    
-    }
-    
-    .close-btn-2 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 310px;
-        bottom: 245px;
-        
-    }
-    
-    .close-btn-3 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 400px;
-        bottom: 175px;
-    }
-
-    .close-btn-4 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 5px;
-        bottom: 1050px;
-    }
-    
-    .insta-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 10px;
-        bottom: 2px;
-    }
-    
-    .facebook-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 18px;
-        bottom: 2px;
-    }
-    
-    .gallery {
-        position: relative;
-        height: 1124px;
-        overflow: scroll;
-    }
-    
-    .shop {
-        position: relative;
-    }
-    
-
-    .shop-img {
         position: absolute;
-        width: 950px;
-        
-        left: 85px;
-        justify-content: center;
-        opacity: .9;   
+        left: 160px;
+        top:-5px
     }
     
-    .logos {
-        position: relative;
-        text-align: center;
-        bottom: 0px;
-        padding: 10px;
-        min-height: 13vh;
-    }
-    
-    .logo-header {
-        position: relative;
-        top:403px;
-        left:70px;
-        height:20px;
-        width: 400px;
-    }
-    
-    
-    .products {
-        height: 78vh;
-        position: relative;
-        left: 280px;
-        width: 80%;
-        overflow: scroll;
-        
-       
-    }
-    
-    .product {
-        height: 25vh;
-        position: relative;
-        word-wrap: break-word;
-        bottom: 90px;
-    }
-    
-    .production {
-        position: relative; 
-    }
-    
-    .prod {
-    position: relative;
-    min-height: 10vh;
-    margin: 7px;
-    }
-    
-    .product-img {
-        width: 300px;
-        height: 300px;
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-    }
-    
-    .product-title {
-        position: relative;
-        bottom: 36px;
-        left: 118px
-    }
-    
-    .btn-all {
-        position: absolute;
-        bottom:30px;
-        margin:15px
-    }
-  
-    
-    .vagaro-container {
-        position: absolute;
-        height:605px;
-        width: 800px;
-        left:5px;
-        bottom:50px;
-        overflow: scroll;
-        
-    }
-
-    .contact-address {
-        position: relative;
-        width: 650px;
-        bottom: 122px;
-        left:4.5px
-        
-    }
-    
-    .contact-info {
-        position: relative;
-        width: 10px;
-        height: 130px;
-        bottom: 30px;
-        font-size: small;
-        
-    }
-    
-
-    .contact-buzz {
-        position: relative;
-        left: 30px;
-    }
-
-
-    .contact-titles {
-        font-size: 15px;
-        position: relative;
-        bottom: 25px;
-        width: 560px;
-        left:23px   
-    }
-    
-    
-    .contact-words {
-        position: relative;
-        bottom: 630px;
-        left: 205px;
-        height: 620px;
-        width: 700px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-       
-    }
-    
-    .contact-form {
-        position: relative;
-        background-color: var(--mainWhite);
-        height: 200px;
-        width:670px;
-        bottom: 90px;
-        left: 10px
-    }
-   
-    .submit-btn {
-        position: relative;
-        right: 225px;
-        bottom: 28px;
-    }
-  
-    .footer {
-
-        background-color: var(--mainOrange2);
-        min-height: 12vh;
-        width: 175.8%;
-        position: relative;
-        right: 708px;
-        top: 136px;
-        
-    }
-    
-    .foot-address {
-        position: grid;
-        font-size: larger;
-        left: 580px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .foot-title {
-        position: grid;
-        font-size: larger;
-        left:300px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .foot-phone {
-        position: grid;
-        font-size: larger;
-        left:40px;
-        font-size: medium;
-        font-weight: bold;
-    }
-
-
-       
-    .footer-gallery {
-        position: relative;
-        top:150px;
-        font-size: 16px;
-    }
-    
-    .foot-row {
-        position: relative;
-        height: 50px;
-    }
-    
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 300px;
-        width: 300px;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: var(--mainOrange);
-      }
-      
-      .container:hover .overlay {
-        opacity: .9;
-      }
-      
-      .text {
-        color: white;
-        font-size: 14px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-    
-      .gallery-img {
-      border-style: groove;
-      border-color: var(--mainOrange);
-      border-width: 10px;
-      }
-      
-      .gallery {
-        position: relative;
-        height: 1098px;
-        overflow: scroll;   
-    }
-    
-}
- */
+} 
 
 
 
 
-
-
-
-
-
-
-
-
-/* 
-
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1093px) {
    
 
-
-    h1,h2,h3,h4,h5,h6, nav {
+    nav {
         font-family: 'Josefin Slab', serif !important;
         letter-spacing: 0.25rem !important;
         word-spacing: 5px;
-        font-size: 30px;
+        font-size: 10px;
     }
-    
+
     .navbar {
         background-color: var(--mainOrange2);
     }
     
     .nav-link {
     
-        font-size: 15px;
+        font-size: 14px;
+        font-weight: bold;
     
     }
-    
-    body {
-        background:url('../images/04_Wallpaper.png');
-        color: var(--mainDark);
-        font-family: 'Josefin Slab', serif !important;
-        background-size: 180vh;
-        background-position-y: 240px;
-        background-position-x: 152.5px;
-        
-    }
-    
-    .text-orange {
-        color: var(--mainOrange);
-    }
-    
-    
-    .btn-yellow {
-        background: var(--mainOrange2);
-        color: var(--mainDark);
-        display: inline-flexbox;
-        position: relative;
-        
-    }
-    
-    .home-menu {
-      position: absolute;
-      width: 80%;
-      right: 120px;
-      bottom:190px; 
-      flex-direction: row;
-    
-    }
+
     
     .home-header {
-        position: absolute;
-        display: -webkit-flex;
-        right: 2.5px;
-        top: 5px;
-        opacity: .8;
-        z-index: -1;
-        
-    
+        position: relative;
+        opacity: 1;
     }
     
     .home-img {
-        position: relative;
-        
-    }
-    
-    
-    .home-btn {
-        position: grid;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-    
-    .home-btn-shop {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-hive {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-join {
-        position: grid;
-      
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-     
-    }
-    
-    
-    .book-widget {
-        position: relative;
-        top: 125px;
-    }
-    
-    
-    .about-img {
-        position: relative;
-        width: 950px;
-        height: 645px;
-        left: -10px;
-        justify-content: center;
-        opacity: .9;
-      
-    }
-    
-    
-    .about-desc {
-    
-        text-align: center;
-        font-size: larger;
-        font-style: bold;
-        font-size: 21px;
-        height: 200px;
-        
-    }
-    
-    .about-words {
-        position: relative;
-        bottom: 545px;
-        width: 80%;
-        left: 100px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-        padding: 10px;
-
-    }
-    
-    .close-btn {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 400px;
-        bottom: 30px;
-    
-    }
-    
-    .close-btn-2 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 310px;
-        bottom: 245px;
-        
-    }
-    
-    .close-btn-3 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 400px;
-        bottom: 175px;
-    }
-
-    .close-btn-4 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 5px;
-        bottom: 1050px;
-    }
-    
-    .insta-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 10px;
-        bottom: 2px;
-    }
-    
-    .facebook-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 18px;
-        bottom: 2px;
-    }
-    
-    .gallery {
-        position: relative;
-        height: 1124px;
-        overflow: scroll;
-    }
-    
-    .shop {
-        position: relative;
-    }
-    
-
-    .shop-img {
         position: absolute;
-        width: 950px;
-        height: 645px;
-        left: 85px;
-        justify-content: center;
-        opacity: .9;     
+                
     }
     
-    .logos {
-        position: relative;
-        text-align: center;
-        bottom: 0px;
-        padding: 10px;
-        min-height: 13vh;
-    }
-    
-    .logo-header {
-        position: relative;
-        top:403px;
-        left:70px;
-        height:20px;
-        width: 400px;
-    }
-    
-    
-    .products {
-        height: 78vh;
-        position: relative;
-        left: 280px;
-        width: 80%;
-        overflow: scroll;
-        
-       
-    }
-    
-    .product {
-        height: 25vh;
-        position: relative;
-        word-wrap: break-word;
-        bottom: 90px;
-    }
-    
-    .production {
-        position: relative; 
-    }
-    
-    .prod {
-    position: relative;
-    min-height: 10vh;
-    margin: 7px;
-    }
-    
-    .product-img {
-        width: 300px;
-        height: 300px;
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-    }
-    
-    .product-title {
-        position: relative;
-        bottom: 36px;
-        left: 118px
-    }
-    
-    .btn-all {
-        position: absolute;
-        bottom:30px;
-        margin:15px
-    }
-  
-    
-    .vagaro-container {
-        position: absolute;
-        height:605px;
-        width: 800px;
-        left:0px;
-        bottom:45px;
-        overflow: scroll;
-    }
-
-    .contact-address {
-        position: relative;
-        width: 650px;
-        bottom: 122px;
-        left:4.5px
-        
-    }
-    
-    .contact-info {
-        position: relative;
-        width: 10px;
-        height: 130px;
-        bottom: 30px;
-        font-size: small;
-        
-    }
-    
-
-    .contact-buzz {
-        position: relative;
-        left: 30px;
-    }
+} 
 
 
-    .contact-titles {
-        font-size: 15px;
-        position: relative;
-        bottom: 25px;
-        width: 560px;
-        left:23px   
-    }
-    
-    
-    .contact-words {
-        position: relative;
-        bottom: 635px;
-        left: 205px;
-        height: 620px;
-        width: 700px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-       
-    }
-    
-    .contact-form {
-        position: relative;
-        background-color: var(--mainWhite);
-        height: 200px;
-        width:670px;
-        bottom: 90px;
-        left: 10px
-    }
-   
-    .submit-btn {
-        position: relative;
-        right: 225px;
-        bottom: 28px;
-    }
-    
-    .footer {
-
-        background-color: var(--mainOrange2);
-        min-height: 12vh;
-        width: 175.8%;
-        position: relative;
-        right: 708px;
-        top: 139px;
-        
-    }
-    
-    .foot-address {
-        position: grid;
-        font-size: larger;
-        left: 640px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .foot-title {
-        position: grid;
-        font-size: larger;
-        left:330px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .foot-phone {
-        position: grid;
-        font-size: larger;
-        left:60px;
-        font-size: medium;
-        font-weight: bold;
-    }
-
-
-    
-    .footer-gallery {
-        position: relative;
-        top:150px;
-        font-size: 16px;
-    }
-    
-    .foot-row {
-        position: relative;
-        height: 50px;
-    }
-    
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 300px;
-        width: 300px;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: var(--mainOrange);
-      }
-      
-      .container:hover .overlay {
-        opacity: .9;
-      }
-      
-      .text {
-        color: white;
-        font-size: 14px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-    
-      .gallery-img {
-      border-style: groove;
-      border-color: var(--mainOrange);
-      border-width: 10px;
-      }
-      
-      .gallery {
-        position: relative;
-        height: 1098px;
-        overflow: scroll;   
-    }
-    
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1015px) {
    
 
-
-    h1,h2,h3,h4,h5,h6, nav {
+    nav {
         font-family: 'Josefin Slab', serif !important;
         letter-spacing: 0.25rem !important;
         word-spacing: 5px;
-        font-size: 30px;
+        font-size: 10px;
     }
-    
+
     .navbar {
         background-color: var(--mainOrange2);
     }
     
     .nav-link {
     
-        font-size: 15px;
-    
-    }
-    
-    body {
-        background:url('../images/04_Wallpaper.png');
-        color: var(--mainDark);
-        font-family: 'Josefin Slab', serif !important;
-        background-size: 180vh;
-        background-position-y: 240px;
-        background-position-x: 152.5px;
-        
-    }
-    
-    .text-orange {
-        color: var(--mainOrange);
-    }
-    
-    
-    .btn-yellow {
-        background: var(--mainOrange2);
-        color: var(--mainDark);
-        display: inline-flexbox;
-        position: relative;
-        
-    }
-    
-    .home-menu {
-      position: absolute;
-      width: 80%;
-      right: 125px;
-      bottom:190px; 
-      flex-direction: row;
+        font-size: 11px;
+        font-weight: bold;
     
     }
     
     .home-header {
-        position: absolute;
-        display: -webkit-flex;
-        right: 2.5px;
-        top: 50px;
-        opacity: .8;
-        z-index: -1;
         
+        opacity: 1;
+     
+    }
+
+    .text-yellow {
+        font-size: small;
+    }
+    
+    .home-img {
+        position: absolute;
+        left: 160px;
+       
+    }
+    
+} 
+
+
+
+@media only screen and (max-width: 991px) {
+   
+
+    nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 10px;
+    }
+
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+    
+    .nav-link {
+    
+        font-size: 11px;
+        font-weight: bold;
+    
+    }
+
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: absolute;
+        left: 80px;
+        font-size: medium;
+    }
+    
+    
+    .home-img {
+        position: absolute;
+        left: 100px;
+        top: 20px;
+    }
+
+    
+} 
+
+
+
+@media only screen and (max-width: 899px) {
+   
+    .nav-link {
+    
+        font-size: 10px;
+        font-weight: bold;
+    
+    }
+    
+} 
+
+@media only screen and (max-width: 860px) {
+   
+    .nav-link {
+    
+        font-size: 9px;
+        font-weight: bold;
+    
+    }
+    
+} 
+
+@media only screen and (max-width: 822px) {
+   
+    
+    .nav-link {
+    
+        font-size: 7px;
+        font-weight: bold;
+    
+    }
+    
+    
+} 
+
+@media only screen and (max-width: 767px) {
+
+    
+    .nav-link {
+    
+        font-size: 10px;
+        font-weight: bold;
     
     }
     
     .home-img {
-        position: relative;
-        
-    }
-    
-    
-    .home-btn {
-        position: grid;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-    
-    .home-btn-shop {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-hive {
-        position: grid;
-    
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    
-    .home-btn-join {
-        position: grid;
-      
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-     
-    }
-    
-    
-    .book-widget {
-        position: relative;
-        top: 125px;
-    }
-    
-    
-    .about-img {
-        position: relative;
-        width: 950px;
-        height: 645px;
-        left: -10px;
-        justify-content: center;
-        opacity: .9;
-    }
-    
-    
-    .about-desc {
-    
-        text-align: center;
-        font-size: larger;
-        font-style: bold;
-        font-size: 18px;
-        height: 200px;
-        
-        
-    }
-    
-    .about-words {
-        position: relative;
-        bottom: 525px;
-        width: 60%;
-        left: 220px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange2);
-        border-width: 10px;
-        padding: 10px;
-
-    }
-    
-    .close-btn {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange2);
-        left: 290px;
-        bottom: 30px;
-    
-    }
-    
-    .close-btn-2 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange2);
-        left: 290px;
-        bottom: 225px;
-        
-    }
-    
-    .close-btn-3 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange2);
-        left: 300px;
-        bottom: 155px;
-    }
-
-    .close-btn-4 {
-        position: relative;
-        background-color: var(--mainWhite);
-        color:var(--mainOrange);
-        left: 5px;
-        bottom: 1050px;
-    }
-    
-    .insta-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 10px;
-        bottom: 2px;
-    }
-    
-    .facebook-btn {
-        position: relative;
-        background-color: var(--mainOrange);
-        color:var(--mainDark);
-        left: 18px;
-        bottom: 2px;
-    }
-    
-    .gallery {
-        position: relative;
-        height: 1124px;
-        overflow: scroll;
-    }
-    
-    .shop {
-        position: relative;
-    }
-    
-
-    .shop-img {
         position: absolute;
-        width: 950px;
-        height: 645px;
-        left: 85px;
-        justify-content: center;
-        opacity: .9;     
+        left: 65px;
+        top: 20px;
     }
-    
-    .logos {
-        position: relative;
-        text-align: center;
-        bottom: 0px;
-        padding: 10px;
-        min-height: 13vh;
-    }
-    
-    .logo-header {
-        position: relative;
-        top:403px;
-        left:70px;
-        height:20px;
-        width: 400px;
-    }
-    
-    
-    .products {
-        height: 78vh;
-        position: relative;
-        left: 280px;
-        width: 80%;
-        overflow: scroll;
-        
-       
-    }
-    
-    .product {
-        height: 25vh;
-        position: relative;
-        word-wrap: break-word;
-        bottom: 90px;
-    }
-    
-    .production {
-        position: relative; 
-    }
-    
-    .prod {
-    position: relative;
-    min-height: 10vh;
-    margin: 7px;
-    }
-    
-    .product-img {
-        width: 300px;
-        height: 300px;
-        border-style: groove;
-        border-color: var(--mainOrange);
-        border-width: 10px;
-    }
-    
-    .product-title {
-        position: relative;
-        bottom: 36px;
-        left: 118px
-    }
-    
-    .btn-all {
+
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
         position: absolute;
-        bottom:30px;
-        margin:15px
-    }
-  
-    
-    .vagaro-container {    
-        position: absolute;
-        height:605px;
-        width: 800px;
-        left:0px;
-        bottom:45px;
-        overflow: scroll;
-    }
-
-    .contact-address {
-        position: relative;
-        width: 650px;
-        bottom: 122px;
-        left:4.5px
-        
+        left: 80px;
+        font-size: smaller;
     }
     
-    .contact-info {
-        position: relative;
-        width: 10px;
-        height: 130px;
-        bottom: 30px;
-        font-size: small;
-        
+    .text-yellow {
+        font-size: x-small;
     }
-    
+} 
 
-    .contact-buzz {
-        position: relative;
-        left: 30px;
-    }
-
-
-    .contact-titles {
-        font-size: 15px;
-        position: relative;
-        bottom: 25px;
-        width: 560px;
-        left:23px   
-    }
-    
-    
-    .contact-words {
-        position: relative;
-        bottom: 635px;
-        left: 205px;
-        height: 620px;
-        width: 700px;
-        background-color: var(--mainWhite);
-        border-style: groove;
-        border-color: var(--mainOrange2);
-        border-width: 10px;
-       
-    }
-    
-    .contact-form {
-        position: relative;
-        background-color: var(--mainWhite);
-        height: 200px;
-        width:670px;
-        bottom: 90px;
-        left: 10px
-    }
-   
-    .submit-btn {
-        position: relative;
-        right: 225px;
-        bottom: 28px;
-    }
-    
-    .footer {
-
-        background-color: var(--mainOrange2);
-        min-height: 12vh;
-        width: 175.8%;
-        position: relative;
-        right: 708px;
-        top: 139px;
-        
-    }
-    
-    .foot-address {
-        position: grid;
-        font-size: larger;
-        left: 640px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .foot-title {
-        position: grid;
-        font-size: larger;
-        left:330px;
-        font-size: medium;
-        font-weight: bold;
-    }
-    
-    .foot-phone {
-        position: grid;
-        font-size: larger;
-        left:50px;
-        font-size: medium;
-        font-weight: bold;
-    }
-
-    
-    .footer-gallery {
-        position: relative;
-        top:150px;
-        font-size: 16px;
-    }
-    
-    .foot-row {
-        position: relative;
-        height: 50px;
-    }
-    
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 300px;
-        width: 300px;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: var(--mainOrange);
-      }
-      
-      .container:hover .overlay {
-        opacity: .9;
-      }
-      
-      .text {
-        color: white;
-        font-size: 14px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-    
-      .gallery-img {
-      border-style: groove;
-      border-color: var(--mainOrange);
-      border-width: 10px;
-      }
-      
-      .gallery {
-        position: relative;
-        height: 1098px;
-        overflow: scroll;   
-    }
-    
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
+ /*
 @media only screen and (max-width: 1199px) {
 
    

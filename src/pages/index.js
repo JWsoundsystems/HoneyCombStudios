@@ -13,9 +13,11 @@ const IndexPage = ({ data }) => (
     <div id="content-wrap">
     <div className="container">
       <div className="row">
+        
       <div className="col-12 home-header">
-    <img className="home-img rounded mx-auto d-block" src={logo} alt="Logo"/>
+    <img className="home-img " src={logo} alt="Logo"/>
     </div>
+  
     </div>
     <div className="row py-5 home-menu">
         <div className="col-3 home-btn mx-auto ">

@@ -13,6 +13,8 @@ class Shopping extends Component {
     
   render() {
     return (
+      <section id="page-container">
+    <div id="content-wrap">
       <div className="container shop-container">            
         <div className="row shop">
         <div className="col-12 shop-col">
@@ -31,7 +33,9 @@ class Shopping extends Component {
         
       </div>   
       </div>
-      </div>   
+      </div>
+      </div>
+      </section>   
       
     )
   }
